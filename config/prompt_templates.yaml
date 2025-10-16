@@ -1,0 +1,14 @@
+summarize:
+  description: "Summarize long text into concise bullet points"
+  template: |
+    You are a helpful assistant. Summarize the following text into 5 bullet points:
+    Text:
+    {input_text}
+
+image_caption:
+  description: "Create a concise caption for an image generation prompt"
+  template: "A {style} of {subject} in {setting}, {extra_descriptors}"
+
+audio_prompt:
+  description: "Create TTS prompt"
+  template: "Speak the following in a {voice} voice with {emotion}: {text}"

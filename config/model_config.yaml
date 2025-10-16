@@ -1,0 +1,21 @@
+# Model configuration - switch providers/params here
+text:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  max_tokens: 512
+  temperature: 0.7
+  api_key_env: "OPENAI_API_KEY"
+
+image:
+  provider: "stability"
+  model: "stable-diffusion-v1"
+  width: 512
+  height: 512
+  steps: 30
+  api_key_env: "STABILITY_API_KEY"
+
+audio:
+  provider: "openai"
+  model: "gpt-4o-audio"
+  sample_rate: 24000
+  api_key_env: "OPENAI_API_KEY"
